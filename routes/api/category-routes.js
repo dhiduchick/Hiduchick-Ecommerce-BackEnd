@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
-  Category.jfindOne({
+  Category.findOne({
     where: {
       id: req.params.id
     },
