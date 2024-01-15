@@ -30,27 +30,37 @@ The primary objective of this application is to function as the backend infrastr
 
 ## Product Routes 
 Run these commands in Insomnia
--To get all products: GET http://localhost:3001/api/products
--Get a prodduct by its ID: GET http://localhost:3001/api/products/('id')
--Add a new product: POST http://3001/api/poducts
+-To get all products: GET: http://localhost:3001/api/products
+-Get a prodduct by its ID: GET http://localhost:3001/api/products/ id
+-Add a new product: POST: http://3001/api/poducts
 ![Post Example]()
 
--Update a product by its ID: PUT http://localhost:3001/api/products/('id')
+-Update a product by its ID: PUT: http://localhost:3001/api/products/ id
 ![Put Example]()
 
--Delete a product by its ID: DELETE http://localhost:3001/api/products/('id')
-![De](./images/3.png)
+-Delete a product by its ID: DELETE: http://localhost:3001/api/products/ id
 
 ## Tag Routes 
+-Get all tags: GET: http://localhost:3001/api/tags
+-Get a tag by ID: GET: http://localhost:3001/api/tags/ id
+-Add a new tag: POST: http://localhost:3001/api/tags
+![Post Example]()
 
-![All employees](./images/4.png)
+-Update a tag by its ID: PUT: http://localhost:3001/api/tags/ id
+![Put Example]()
 
-![Add department](./images/5.png)
+-Delete a tag by its ID: DELETE: http://localhost:3001/api/tags/ id
 
-![Add role](./images/6.png)
+## Category Routes 
+-Get all categories: GET: http://localhost:3001/api/categories
+-Get a category by ID: GET: http://localhost:3001/api/categories/ id
+-Add a new category: POST: http://localhost:3001/api/categories
+![Post Example]()
 
-![Add employee](./images/7.png)
+-Update a category by its ID: PUT: http://localhost:3001/api/categories/ id
+![Put Example]()
 
+-Delete a category by its ID: DELETE: http://localhost:3001/api/categories/ id
 ![Update employee](./images/8.png)
 
 # Author
