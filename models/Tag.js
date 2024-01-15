@@ -13,12 +13,12 @@ Tag.init(
       primaryKey: true,
       autoIncrement: true
     },
-    tage_name: {
+    tag_name: {
       type: DataTypes.STRING,
     }
   },
   {
-    sequelize: sequelize,
+    sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
