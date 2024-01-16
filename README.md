@@ -26,17 +26,29 @@ The primary objective of this application is to function as the backend infrastr
 
 
 ## Demo
-[![Watch the video](./images/video-start-image.png)](https://drive.google.com/file/d/1PmCThYbYDoJD6x8F1zWSILT9gi1bhkAk/view)
+[![Watch the video](./images/video-start-image.png)](https://drive.google.com/file/d/1SA9a5PMkL4Dw93P33a_ZuZ4wFaElFn1M/view)
+
+
+## Category Routes 
+-Get all categories: GET: http://localhost:3001/api/categories
+-Get a category by ID: GET: http://localhost:3001/api/categories/ id
+-Add a new category: POST: http://localhost:3001/api/categories
+![Post Example](./images/C-Categories.png)
+
+-Update a category by its ID: PUT: http://localhost:3001/api/categories/ id
+![Put Example](./images/U-categories.png)
+
+-Delete a category by its ID: DELETE: http://localhost:3001/api/categories/ id
 
 ## Product Routes 
 Run these commands in Insomnia
 -To get all products: GET: http://localhost:3001/api/products
 -Get a prodduct by its ID: GET http://localhost:3001/api/products/ id
 -Add a new product: POST: http://3001/api/poducts
-![Post Example]()
+![Post Example](./images/C-products.png)
 
 -Update a product by its ID: PUT: http://localhost:3001/api/products/ id
-![Put Example]()
+![Put Example](./images/u-products.png)
 
 -Delete a product by its ID: DELETE: http://localhost:3001/api/products/ id
 
@@ -44,24 +56,12 @@ Run these commands in Insomnia
 -Get all tags: GET: http://localhost:3001/api/tags
 -Get a tag by ID: GET: http://localhost:3001/api/tags/ id
 -Add a new tag: POST: http://localhost:3001/api/tags
-![Post Example]()
+![Post Example](./images/c-tags.png)
 
 -Update a tag by its ID: PUT: http://localhost:3001/api/tags/ id
-![Put Example]()
+![Put Example](./images/u-tags.png)
 
 -Delete a tag by its ID: DELETE: http://localhost:3001/api/tags/ id
-
-## Category Routes 
--Get all categories: GET: http://localhost:3001/api/categories
--Get a category by ID: GET: http://localhost:3001/api/categories/ id
--Add a new category: POST: http://localhost:3001/api/categories
-![Post Example]()
-
--Update a category by its ID: PUT: http://localhost:3001/api/categories/ id
-![Put Example]()
-
--Delete a category by its ID: DELETE: http://localhost:3001/api/categories/ id
-![Update employee](./images/8.png)
 
 # Author
 Created with ♡ by Daelyn Hiduchick
